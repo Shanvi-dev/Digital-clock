@@ -8,16 +8,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #10101E;
+    background-image: url("time1.jpg");
+    background-size: cover;
   }
   
   .datetime{
     color: #fff;
-    background: #10101E;
     font-family: "Segoe UI", sans-serif;
     width: 360px;
     padding: 15px 10px;
-    border: 3px solid #18e433;
+    border: 3px solid #18b4e4;
     border-radius: 100px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
     transition: 0.5s;
@@ -25,8 +25,8 @@
   }
   
   .datetime:hover{
-    background: #2E94E3;
-    box-shadow: 0 0 30px #2E94E3;
+    background: #3c80b4;
+    box-shadow: 0 0 30px #3c80b4;
   }
   
   .date{
@@ -53,7 +53,7 @@
   }
   
   .time span:last-child{
-    background:  #18e433;
+    background:  #3c80b4;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
@@ -61,7 +61,4 @@
     padding: 0 8px;
     border-radius: 3px;
   }
-  .time:hover{
-    background: #18e433;
-    box-shadow: 0 0 30px #2E94E3;
-  }      
+      
